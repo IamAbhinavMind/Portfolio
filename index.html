@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav — Personal Portfolio | Signal</title>
+  <meta name="description" content="Portfolio of Abhinav — 2nd-year B.Tech CSE (AI) student, AI-assisted builder, and public communicator. Deep Focus aesthetic.">
+  <meta name="theme-color" content="#0B0D10">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="Abhinav — Personal Portfolio | Signal">
+  <meta property="og:description" content="Building in public. Second-year. Full builder mindset.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/IamAbhinavMind">
+
+  <!-- Google Fonts: Space Grotesk (Headings) + Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Sticky Navigation Bar
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Main Navigation">
+        <a href="#" class="brand-logo" aria-label="Home">
+          A<span class="dot">.</span>
+          <span class="status-pill-mini">
+            <span class="pulse-dot"></span>
+            <span>Open to Internships</span>
+          </span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#work" class="nav-link">What I Build</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#voice" class="nav-link">Voice</a></li>
+          <li><a href="#connect" class="nav-link">Connect</a></li>
+        </ul>
+
+        <a href="#connect" class="nav-cta">
+          <span>Get in Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         1. Hero Section
+         ========================================================================= -->
+    <section class="section-hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Identity & Typography -->
+          <div class="hero-content reveal-init">
+            <div class="hero-badge-row">
+              <span class="badge-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                Bangalore · Mumbai · Delhi
+              </span>
+              <span class="badge-location">
+                B.Tech CSE (AI) · Class of '29
+              </span>
+            </div>
+
+            <h1 class="hero-title">
+              Building in public.
+              <span class="highlight">Second-year. Full builder mindset.</span>
+            </h1>
+
+            <p class="hero-subhead">
+              Government Engineering College, Gopalganj. Shipping functional products with AI agents, mastering systems, and documenting every milestone openly.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#work" class="btn-primary">
+                <span>View my work</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+              </a>
+              <a href="#connect" class="btn-secondary">
+                <span>Connect</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+            <div class="hero-quick-links">
+              <span>Quick outreach:</span>
+              <a href="mailto:abhinavkumarinsights@gmail.com">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                Email
+              </a>
+              <span>·</span>
+              <a href="https://github.com/IamAbhinavMind" target="_blank" rel="noopener noreferrer">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                GitHub
+              </a>
+              <span>·</span>
+              <a href="https://www.linkedin.com/in/abhinavkumarhq" target="_blank" rel="noopener noreferrer">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Hero Portrait -->
+          <div class="hero-visual reveal-init">
+            <div class="portrait-glow" aria-hidden="true"></div>
+            <div class="portrait-wrapper">
+              <img 
+                src="assets/images/hero-portrait.jpg" 
+                alt="Portrait of Abhinav Kumar" 
+                class="portrait-img"
+                width="400"
+                height="448"
+                loading="eager"
+              >
+              <div class="portrait-vignette" aria-hidden="true"></div>
+              
+              <div class="portrait-badge">
+                <div class="portrait-badge-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+                </div>
+                <div class="portrait-badge-text">
+                  <span class="portrait-badge-title">Abhinav Kumar</span>
+                  <span class="portrait-badge-sub">Product Owner · DeepFocus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. About Section (3 Punchy Fragments)
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="reveal-init">
+          <span class="section-label">Identity & Mindset</span>
+          <h2 class="section-title">Calm focus. Honest execution.</h2>
+          <p class="section-desc">
+            I don't posture with inflated titles. I leverage modern workflows to ship real software while mastering foundational engineering principles.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Fragment 1 -->
+          <article class="fragment-card reveal-init">
+            <span class="fragment-number">01</span>
+            <h3 class="fragment-title">AI-Native Builder</h3>
+            <p class="fragment-body">
+              I ship with AI coding agents, not by hand-coding boilerplate from scratch. Fast iteration loops and high-quality software output are my primary focus.
+            </p>
+          </article>
+
+          <!-- Fragment 2 -->
+          <article class="fragment-card reveal-init">
+            <span class="fragment-number">02</span>
+            <h3 class="fragment-title">Product Owner First</h3>
+            <p class="fragment-body">
+              I define what problem matters, architect the user journey and database schema, and then direct AI tools to implement it without compromising quality.
+            </p>
+          </article>
+
+          <!-- Fragment 3 -->
+          <article class="fragment-card reveal-init">
+            <span class="fragment-number">03</span>
+            <h3 class="fragment-title">Documenting in Public</h3>
+            <p class="fragment-body">
+              Documenting the raw journey publicly on YouTube and socials — from breaking overstimulation habits to shipping software and debugging live edge-cases.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. What I Build — Featured Project
+         ========================================================================= -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="reveal-init">
+          <span class="section-label">Featured Work</span>
+          <h2 class="section-title">What I Build</h2>
+          <p class="section-desc">
+            Shipped products built to solve personal productivity and digital focus problems.
+          </p>
+        </div>
+
+        <div class="project-card-featured reveal-init">
+          <div class="project-header-bar">
+            <div class="project-meta-badges">
+              <span class="tag-badge teal">
+                <span class="pulse-dot"></span>
+                Live Web App
+              </span>
+              <span class="tag-badge amber">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Chrome Extension: In Active Development
+              </span>
+            </div>
+            <span style="font-size: 0.85rem; color: var(--text-muted); font-family: monospace;">v1.0.0-beta</span>
+          </div>
+
+          <h3 class="project-name">
+            DeepFocus
+          </h3>
+
+          <p class="project-tagline">
+            A deep-work and distraction-blocking application engineered to help knowledge workers break the loop of overstimulation and stay locked in flow.
+          </p>
+
+          <div class="project-specs-grid">
+            <div class="spec-item">
+              <h4 class="spec-item-title">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+                Two-Pillar System
+              </h4>
+              <p class="spec-item-desc">
+                Balances an intentional Flow Mode session timer against an always-on content shield to safeguard cognitive energy.
+              </p>
+            </div>
+
+            <div class="spec-item">
+              <h4 class="spec-item-title">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                Supabase & RLS
+              </h4>
+              <p class="spec-item-desc">
+                Secure user authentication and PostgreSQL data storage fortified with Row Level Security (RLS) policies.
+              </p>
+            </div>
+
+            <div class="spec-item">
+              <h4 class="spec-item-title">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent-amber)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                Extension (In Progress)
+              </h4>
+              <p class="spec-item-desc">
+                Native browser companion in active development to intercept distracting web domains in real-time.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tech-stack-pills">
+              <span class="pill-code">Supabase</span>
+              <span class="pill-code">PostgreSQL</span>
+              <span class="pill-code">RLS Policies</span>
+              <span class="pill-code">Web APIs</span>
+              <span class="pill-code">AI-Assisted Dev</span>
+            </div>
+
+            <a href="https://deepfocus.space-z.ai/" target="_blank" rel="noopener noreferrer" class="btn-project-live">
+              <span>View live landing page</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. Honest Skills Section (Plain labels, NO inflated % bars)
+         ========================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="reveal-init">
+          <span class="section-label">Honest Inventory</span>
+          <h2 class="section-title">Skills & Proficiencies</h2>
+          <p class="section-desc">
+            No fake 90% progress bars. Just an accurate representation of what I know, use daily, and can defend in an interview.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Bucket 1: Programming -->
+          <div class="skill-bucket-card reveal-init">
+            <div class="bucket-header">
+              <div class="bucket-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="bucket-title">Programming</h3>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Python</span>
+                <span class="skill-level-tag">Basics</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">HTML5 & CSS3</span>
+                <span class="skill-level-tag">Foundational</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level-tag">Foundational</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Data Structures (CS)</span>
+                <span class="skill-level-tag">Academic Coursework</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Bucket 2: Tools & Workflow -->
+          <div class="skill-bucket-card reveal-init">
+            <div class="bucket-header">
+              <div class="bucket-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="bucket-title">Tools & Systems</h3>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Git & GitHub</span>
+                <span class="skill-level-tag highlight">Self-taught</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">AI Coding Agents</span>
+                <span class="skill-level-tag highlight">Daily Workflow</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Microsoft Excel</span>
+                <span class="skill-level-tag">Basics</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Microsoft Word</span>
+                <span class="skill-level-tag">Basics</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Bucket 3: Communication -->
+          <div class="skill-bucket-card reveal-init">
+            <div class="bucket-header">
+              <div class="bucket-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+              </div>
+              <h3 class="bucket-title">Communication</h3>
+            </div>
+
+            <ul class="skill-items-list">
+              <li class="skill-item">
+                <span class="skill-name">Public Speaking</span>
+                <span class="skill-level-tag highlight">Stage & Talks</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Video Content Creation</span>
+                <span class="skill-level-tag highlight">YouTube</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Audience Communication</span>
+                <span class="skill-level-tag">Community</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Technical Synthesis</span>
+                <span class="skill-level-tag">Documentation</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. Content & Voice Section
+         ========================================================================= -->
+    <section class="section" id="voice">
+      <div class="container">
+        <div class="reveal-init">
+          <span class="section-label">Public Voice</span>
+          <h2 class="section-title">Content & Public Speaking</h2>
+          <p class="section-desc">
+            Bridging technical building with articulate communication.
+          </p>
+        </div>
+
+        <div class="voice-grid">
+          <!-- Card 1: YouTube -->
+          <div class="voice-card reveal-init">
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div class="voice-header">
+                <div class="voice-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </div>
+                <div>
+                  <h3 class="voice-card-title">YouTube Channel</h3>
+                  <span style="font-size: 0.85rem; color: var(--text-secondary);">@IamAbhinavMind</span>
+                </div>
+              </div>
+
+              <blockquote class="voice-quote">
+                "I talk as much as I build — on stage and on camera."
+              </blockquote>
+
+              <p class="voice-card-desc">
+                Documenting "The Reset" (a 90-day disciplined transformation), overcoming overstimulation loops, building productivity systems, and exploring real-world AI development tools.
+              </p>
+            </div>
+
+            <a href="https://youtube.com/@IamAbhinavMind" target="_blank" rel="noopener noreferrer" class="btn-channel">
+              <span>View Channel & Videos</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 2: Public Speaking -->
+          <div class="voice-card reveal-init">
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div class="voice-header">
+                <div class="voice-icon stage" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"/><circle cx="17" cy="7" r="5"/></svg>
+                </div>
+                <div>
+                  <h3 class="voice-card-title">Speaking & Presentations</h3>
+                  <span style="font-size: 0.85rem; color: var(--text-secondary);">Audience Engagement</span>
+                </div>
+              </div>
+
+              <p class="voice-card-desc">
+                Comfortable presenting to rooms of students and builders. Believer that engineering without clear communication fails to achieve leverage.
+              </p>
+
+              <p class="voice-card-desc" style="border-left: 2px solid var(--accent-amber); padding-left: 1rem;">
+                Focus areas include: navigating the AI shift as a student, disciplined habits for software builders, and taking early initiative.
+              </p>
+            </div>
+
+            <a href="https://x.com/IamAbhinavMind" target="_blank" rel="noopener noreferrer" class="btn-channel">
+              <span>Follow Journey on X</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. Connect Section (Social Grid + Direct Actions)
+         ========================================================================= -->
+    <section class="section" id="connect">
+      <div class="container">
+        <div class="reveal-init">
+          <span class="section-label">Reach Out</span>
+          <h2 class="section-title">Connect & Collaborate</h2>
+          <p class="section-desc">
+            Actively looking for Summer 2025/2026 internship opportunities in Bangalore, Mumbai, or Delhi. Let's start a conversation.
+          </p>
+        </div>
+
+        <!-- Social Network Grid -->
+        <div class="connect-grid">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/abhinavkumarhq" target="_blank" rel="noopener noreferrer" class="connect-tile reveal-init">
+            <div class="connect-tile-top">
+              <div class="connect-tile-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <span class="connect-arrow">↗</span>
+            </div>
+            <div class="connect-tile-info">
+              <span class="connect-tile-name">LinkedIn</span>
+              <span class="connect-tile-handle">/in/abhinavkumarhq</span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/IamAbhinavMind" target="_blank" rel="noopener noreferrer" class="connect-tile reveal-init">
+            <div class="connect-tile-top">
+              <div class="connect-tile-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              </div>
+              <span class="connect-arrow">↗</span>
+            </div>
+            <div class="connect-tile-info">
+              <span class="connect-tile-name">GitHub</span>
+              <span class="connect-tile-handle">@IamAbhinavMind</span>
+            </div>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://youtube.com/@IamAbhinavMind" target="_blank" rel="noopener noreferrer" class="connect-tile reveal-init">
+            <div class="connect-tile-top">
+              <div class="connect-tile-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </div>
+              <span class="connect-arrow">↗</span>
+            </div>
+            <div class="connect-tile-info">
+              <span class="connect-tile-name">YouTube</span>
+              <span class="connect-tile-handle">@IamAbhinavMind</span>
+            </div>
+          </a>
+
+          <!-- X (Twitter) -->
+          <a href="https://x.com/IamAbhinavMind" target="_blank" rel="noopener noreferrer" class="connect-tile reveal-init">
+            <div class="connect-tile-top">
+              <div class="connect-tile-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <span class="connect-arrow">↗</span>
+            </div>
+            <div class="connect-tile-info">
+              <span class="connect-tile-name">X (Twitter)</span>
+              <span class="connect-tile-handle">@IamAbhinavMind</span>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/iamabhinavmind" target="_blank" rel="noopener noreferrer" class="connect-tile reveal-init">
+            <div class="connect-tile-top">
+              <div class="connect-tile-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </div>
+              <span class="connect-arrow">↗</span>
+            </div>
+            <div class="connect-tile-info">
+              <span class="connect-tile-name">Instagram</span>
+              <span class="connect-tile-handle">@iamabhinavmind</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Direct Email and Resume Actions -->
+        <div class="connect-direct-row reveal-init">
+          <!-- Email Box -->
+          <div class="action-tile-email">
+            <div class="email-tile-content">
+              <span class="email-label">Direct Communication</span>
+              <span class="email-address">abhinavkumarinsights@gmail.com</span>
+            </div>
+
+            <div class="email-actions">
+              <button class="btn-copy-email" data-copy-email="abhinavkumarinsights@gmail.com" aria-label="Copy email address to clipboard">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                <span>Copy</span>
+              </button>
+              <a href="mailto:abhinavkumarinsights@gmail.com" class="btn-primary" style="padding: 0.6rem 1.15rem; font-size: 0.85rem;">
+                <span>Send Email</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Resume Box -->
+          <a href="assets/resume.pdf" download="Abhinav_Kumar_Resume.pdf" class="action-tile-resume" id="resumeLink">
+            <div>
+              <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-amber);">Documentation</span>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--text-primary); margin-top: 0.25rem;">Download Résumé</h3>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.2rem;">PDF format · Updated for internship search</p>
+            </div>
+            <div class="connect-tile-icon" style="background: rgba(245, 166, 35, 0.12); color: var(--accent-amber);" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span>Signal // Abhinav Kumar</span>
+          <span style="opacity: 0.4;">·</span>
+          <span>B.Tech CSE (AI) · GEC Gopalganj</span>
+        </div>
+
+        <div class="footer-right">
+          <span>Designed with Deep Focus</span>
+          <a href="#hero" aria-label="Back to top">
+            Back to top ↑
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification (Copied Email) -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+    <span id="toastText">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
