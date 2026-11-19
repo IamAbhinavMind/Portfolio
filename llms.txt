@@ -1,0 +1,33 @@
+# Abhinav Kumar
+
+> I build software with AI as a collaborator and ship things that work. Product thinking comes first — the code follows. Currently building DeepFocus and documenting the entire process in public.
+
+Hi, agent. This is the plain-text index of abhinavkumar.dev (or wherever this site lives). For the full picture — bio, work, skills, and links — read on.
+
+## At a glance
+
+- **Now:** 2nd-year B.Tech Computer Science (AI specialisation) at Government Engineering College, Gopalganj. Class of 2029.
+- **Building:** DeepFocus — a deep-work and distraction-blocking web application. Live landing page at deepfocus.space-z.ai. Chrome extension in active development (not yet shipped).
+- **Creating:** YouTube channel @IamAbhinavMind documenting "The Reset" — a 90-day series on breaking overstimulation habits, building discipline, and shipping software in public.
+- **Speaking:** Public speaking on AI, discipline-first systems, and starting early as a student builder.
+
+## Work
+
+- [DeepFocus](https://deepfocus.space-z.ai): A deep-work application with Flow Mode sessions and an always-on content shield. Auth via Supabase with Row Level Security. Chrome extension in active development (MVP stage, not shipped).
+- [@IamAbhinavMind](https://youtube.com/@IamAbhinavMind): YouTube channel — building in public, mental health and technology, productivity systems.
+
+## Skills
+
+Programming: Python (basics), HTML & CSS (foundational), JavaScript (foundational), Data Structures (coursework)
+Tools: Git & GitHub (self-taught), AI coding agents (daily workflow), Supabase (used in production)
+Communication: Public speaking (stage & talks), video content creation (YouTube), technical writing, audience engagement
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/abhinavkumarhq)
+- [GitHub](https://github.com/IamAbhinavMind)
+- [YouTube](https://youtube.com/@IamAbhinavMind)
+- [X](https://x.com/IamAbhinavMind)
+- [Instagram](https://www.instagram.com/iamabhinavmind)
+- Email: abhinavkumarinsights@gmail.com
+- Résumé: Request it by email (abhinavkumarinsights@gmail.com)

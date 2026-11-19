@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Kumar</title>
+  <meta name="description" content="Abhinav Kumar — builder, communicator, and 2nd-year B.Tech CSE (AI) student. Building DeepFocus and documenting the process.">
+  <meta name="theme-color" content="#0a0a0a">
+
+  <!-- OG -->
+  <meta property="og:title" content="Abhinav Kumar">
+  <meta property="og:description" content="Builder. Communicator. AI-native product thinker.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- =========================================================
+  NAV
+========================================================= -->
+<nav class="site-nav" id="top">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">Abhinav Kumar</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#content">Content</a></li>
+      <li><a href="#connect">Connect</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+<!-- =========================================================
+  HERO
+========================================================= -->
+<section class="hero" id="hero">
+  <div class="site-wrap">
+
+    <p class="hero-eyebrow">
+      <span class="dot"></span>
+      Available for opportunities
+    </p>
+
+    <div class="hero-portrait-row">
+      <img
+        src="assets/images/hero-portrait.jpg"
+        alt="Abhinav Kumar"
+        class="hero-portrait"
+        width="72"
+        height="72"
+      >
+      <div class="hero-portrait-info">
+        <h1 class="hero-name">Abhinav Kumar</h1>
+        <p class="hero-title">Builder · Communicator · B.Tech CSE (AI), GEC Gopalganj · Class of '29</p>
+      </div>
+    </div>
+
+    <p class="hero-statement">
+      I build software with AI as a collaborator and ship things that work.
+      Product thinking comes first — the code follows.
+      Currently building <strong>DeepFocus</strong> and documenting
+      everything in public on YouTube.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">View work</a>
+      <a href="#connect" class="btn btn-ghost">Get in touch</a>
+      <a href="llms.txt" class="llms-link" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        llms.txt
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+  ABOUT
+========================================================= -->
+<section class="section" id="about">
+  <div class="site-wrap">
+
+    <p class="section-label reveal">About</p>
+
+    <div class="about-strips">
+
+      <div class="strip reveal">
+        <span class="strip-label">Approach</span>
+        <p class="strip-content">
+          I work with AI coding agents as a primary collaborator, not a crutch.
+          <strong>I define the problem, design the system, and direct the build.</strong>
+          The result is working software — faster, without compromising on decisions that matter.
+        </p>
+      </div>
+
+      <div class="strip reveal">
+        <span class="strip-label">Currently</span>
+        <p class="strip-content">
+          2nd year, B.Tech Computer Science (AI specialisation) at
+          <strong>Government Engineering College, Gopalganj</strong>. Building DeepFocus,
+          making content on YouTube, and actively looking for meaningful work in product,
+          technology, or AI.
+        </p>
+      </div>
+
+      <div class="strip reveal">
+        <span class="strip-label">Communication</span>
+        <p class="strip-content">
+          I talk publicly about what I build, why it breaks, and what I learn.
+          <strong>Comfortable on stage and on camera.</strong> Public speaking, content creation,
+          and audience communication are intentional parts of how I grow.
+        </p>
+      </div>
+
+      <div class="strip reveal">
+        <span class="strip-label">Values</span>
+        <p class="strip-content">
+          Honest about where I am. No inflated credentials, no fake skill bars.
+          I believe in <strong>shipping things, being transparent about process,</strong>
+          and earning credibility through real output — not signalling.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+  WORK
+========================================================= -->
+<section class="section" id="work">
+  <div class="site-wrap">
+
+    <p class="section-label reveal">Work</p>
+    <h2 class="section-title reveal">What I build</h2>
+    <p class="section-lead reveal">
+      Projects at various stages — from live products to active development.
+      Scoped honestly.
+    </p>
+
+    <div class="project-list">
+
+      <!-- DeepFocus -->
+      <article class="project-row reveal">
+        <div class="project-row-inner">
+          <div class="project-top">
+            <span class="project-name">DeepFocus</span>
+            <span class="proj-tag">Live</span>
+            <span class="proj-tag">Extension in progress</span>
+          </div>
+          <p class="project-desc">
+            A deep-work application built around two ideas: intentional focus sessions
+            (Flow Mode) and an always-on content shield that intercepts distracting
+            websites. Auth is handled by Supabase with Row Level Security; the Chrome
+            extension that completes the system is in active development.
+            The landing page is live.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill">Supabase</span>
+            <span class="tech-pill">PostgreSQL + RLS</span>
+            <span class="tech-pill">Web APIs</span>
+            <span class="tech-pill">AI-assisted dev</span>
+          </div>
+        </div>
+        <a href="https://deepfocus.space-z.ai/" target="_blank" rel="noopener" class="project-link" aria-label="View DeepFocus live site">
+          Visit
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+        </a>
+      </article>
+
+      <!-- YouTube Channel -->
+      <article class="project-row reveal">
+        <div class="project-row-inner">
+          <div class="project-top">
+            <span class="project-name">@IamAbhinavMind</span>
+            <span class="proj-tag">Active</span>
+          </div>
+          <p class="project-desc">
+            A growing YouTube channel documenting the builder journey in public — overcoming
+            overstimulation, building productive systems, and working through real
+            software problems on camera. Currently running "The Reset," a 90-day
+            transformation series.
+          </p>
+        </div>
+        <a href="https://youtube.com/@IamAbhinavMind" target="_blank" rel="noopener" class="project-link" aria-label="View YouTube channel">
+          Channel
+          <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+        </a>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+  SKILLS
+========================================================= -->
+<section class="section" id="skills">
+  <div class="site-wrap">
+
+    <p class="section-label reveal">Skills</p>
+    <h2 class="section-title reveal">Honest inventory</h2>
+    <p class="section-lead reveal">
+      Labelled exactly as they are. No percentage bars — those don't mean anything.
+    </p>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-col">
+        <p class="skill-col-title">Programming</p>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <span class="skill-name">Python</span>
+            <span class="skill-note">basics</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">HTML &amp; CSS</span>
+            <span class="skill-note">foundational</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-note">foundational</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Data Structures</span>
+            <span class="skill-note">coursework</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-col">
+        <p class="skill-col-title">Tools</p>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <span class="skill-name">Git &amp; GitHub</span>
+            <span class="skill-note">self-taught</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">AI Coding Agents</span>
+            <span class="skill-note">daily workflow</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Supabase</span>
+            <span class="skill-note">used in prod</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">MS Excel / Word</span>
+            <span class="skill-note">basics</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-col">
+        <p class="skill-col-title">Communication</p>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <span class="skill-name">Public speaking</span>
+            <span class="skill-note">stage &amp; talks</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Video content</span>
+            <span class="skill-note">YouTube</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Technical writing</span>
+            <span class="skill-note">documentation</span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Audience engagement</span>
+            <span class="skill-note">community</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+  CONTENT
+========================================================= -->
+<section class="section" id="content">
+  <div class="site-wrap">
+
+    <p class="section-label reveal">Content</p>
+    <h2 class="section-title reveal">In public</h2>
+    <p class="section-lead reveal">
+      Building in public means showing the messy middle, not just the finished result.
+    </p>
+
+    <!-- Most-viewed video embed -->
+    <div class="reveal" style="margin-bottom:2rem;">
+      <p style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text3);font-weight:600;margin-bottom:0.75rem;">Most viewed</p>
+      <div class="yt-embed-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/bLhW0lEeaKI"
+          title="The Hidden Battle Inside Your Mind – Social Media, Mental Health &amp; The Teenage Dilemma"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="content-grid reveal">
+
+      <!-- YouTube -->
+      <div class="content-cell">
+        <div class="content-cell-top">
+          <div>
+            <p class="content-cell-title">YouTube</p>
+            <p class="content-cell-sub">@IamAbhinavMind</p>
+          </div>
+          <a href="https://youtube.com/@IamAbhinavMind" target="_blank" rel="noopener" class="external-link-icon" aria-label="Open YouTube channel">
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+          </a>
+        </div>
+        <p class="content-cell-body">
+          Documenting "The Reset" — a 90-day series on breaking
+          overstimulation habits, building focus, and shipping software.
+          Mental health, discipline, and what it actually looks like to
+          build while learning.
+        </p>
+      </div>
+
+      <!-- Speaking -->
+      <div class="content-cell">
+        <div class="content-cell-top">
+          <div>
+            <p class="content-cell-title">Speaking</p>
+            <p class="content-cell-sub">Stage &amp; presentations</p>
+          </div>
+        </div>
+        <p class="content-cell-body">
+          Comfortable in front of a room. I speak about navigating the
+          AI transition as a student, building discipline-first systems,
+          and the case for starting early.
+          Engineering without clear communication rarely reaches its
+          full potential.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+  CONNECT
+========================================================= -->
+<section class="section" id="connect">
+  <div class="site-wrap">
+
+    <p class="section-label reveal">Connect</p>
+    <h2 class="section-title reveal">Get in touch</h2>
+    <p class="section-lead reveal">
+      Open to conversations about product, technology, and meaningful work.
+    </p>
+
+    <!-- Email row -->
+    <div class="contact-row reveal">
+      <div>
+        <p class="contact-email">abhinavkumarinsights@gmail.com</p>
+        <p class="contact-email-sub">Preferred for direct outreach · Résumé available upon request</p>
+      </div>
+      <div style="display:flex;gap:0.6rem;align-items:center;">
+        <button class="btn-copy" id="copyEmailBtn" data-email="abhinavkumarinsights@gmail.com">copy</button>
+        <a href="mailto:abhinavkumarinsights@gmail.com" class="btn btn-ghost" style="padding:0.4rem 0.9rem;font-size:0.75rem;">send</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================
+  FOOTER
+========================================================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copy">© 2026 Abhinav Kumar. Made by Abhinav.</p>
+    <div class="footer-socials">
+      <a href="https://github.com/IamAbhinavMind" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/abhinavkumarhq" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://youtube.com/@IamAbhinavMind" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://x.com/IamAbhinavMind" target="_blank" rel="noopener">X</a>
+      <a href="https://www.instagram.com/iamabhinavmind" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:abhinavkumarinsights@gmail.com?subject=Resume%20Request" title="Request résumé by email">Résumé</a>
+      <a href="llms.txt" target="_blank" rel="noopener">llms.txt</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
